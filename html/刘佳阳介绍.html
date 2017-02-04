@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>安安家后台</title>
+    <script type="text/javascript">
+        !(function(doc, win) {
+            var docEle = doc.documentElement,
+                evt = "onorientationchange" in window ? "orientationchange" : "resize",
+                fn = function() {
+                    var width = docEle.clientWidth;
+                    width && (docEle.style.fontSize = 20 * (width / 320) + "px");
+                };
+
+            win.addEventListener(evt, fn, false);
+            doc.addEventListener("DOMContentLoaded", fn, false);
+
+        }(document, window));
+    </script>
+
+    <!--Bootstrap-->
+    <link href="../libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #ffffff;
+            /*background: #F6F6F6;*/
+            font-family: airal;
+        }
+        header{
+            height:100vh;
+            padding:120px 50px 50px 50px;
+            background: url("../img/刘佳阳介绍.png");
+            background-size: 140% 100%;
+        }
+        h1{
+            color: #E71A2C;
+            /*color: #353535;*/
+        }
+        h3{
+
+            color: #393939;
+        }
+        p{
+            color: #3f3f3f;
+            /*color:#009944;*/
+            padding-bottom: 10px;
+        }
+        .logo{
+            margin: 20px 0 20px 0;
+            height:60px;
+            line-height: 60px;
+            text-align: center;
+            width:200px;
+            border:2px solid #E71A2C;
+        }
+        .logo p{
+            /*color:#e40077;*/
+            color:#E71A2C;
+            font-size:15px;
+        }
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+
+
+
+
+
+<header>
+    <h1>刘佳阳</h1>
+    <h3>祝：新年快乐</h3>
+    <p>人依旧，物依然，又是一年 ; 想也好，忘也罢，本是平凡 ; 今儿好，明更好，衷心祝愿 ; 情也真，意也切，常驻心间。祝你春节愉快!</p>
+    <h4>send by an</h4>
+    <a href="新年快乐.html">
+        <div class="logo">
+            <p>FOND FRIENDS</p>
+        </div>
+    </a>
+
+    <h5>THAT IS ALL</h5>
+
+
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../libs/jquery/dist/jquery.min.js"></script>
+</body>
+</html>

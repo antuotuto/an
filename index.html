@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>安安家后台</title>
+    <script type="text/javascript">
+        !(function(doc, win) {
+            var docEle = doc.documentElement,
+                evt = "onorientationchange" in window ? "orientationchange" : "resize",
+                fn = function() {
+                    var width = docEle.clientWidth;
+                    width && (docEle.style.fontSize = 20 * (width / 320) + "px");
+                };
+
+            win.addEventListener(evt, fn, false);
+            doc.addEventListener("DOMContentLoaded", fn, false);
+
+        }(document, window));
+    </script>
+
+     <!--Bootstrap-->
+    <link href="./libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      header{
+        padding-top: 150px;
+        text-align: center;
+        height:33vh;
+      }
+      .font1{
+        color:#4285F4;
+      }
+      .font2{
+        color:#EA4335;
+      }
+      .font3{
+        color:#FBBC05;
+      }
+      .font4{
+        color:#4285F4;
+      }
+      .font5{
+        color:#34A853;
+      }
+      .font6{
+        color:#EA4335;
+      }
+      .font7{
+        color:#4285F4;
+      }
+      footer{
+        height:62vh;
+      }
+
+
+      .go{
+        text-align: center;
+        width:100%;
+        padding-top: 17px;
+
+
+      }
+      .btn{
+        width:100px;
+      }
+
+
+
+
+      .end{
+        background: #34A853;
+        height:5vh;
+        line-height: 5vh;
+        text-align: center;
+        color: #3e3e3e;
+        font-size: 0.5rem;
+
+      }
+      a{
+        text-decoration: none;
+      }
+      p{
+        margin: 0;
+      }
+
+    </style>
+
+    </head>
+    <body>
+
+
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <header>
+          <a href="./html/happynewyew.html">
+            <h1>
+              <span class="font1">f </span><span class="font2">r </span><span class="font3">i </span><span class="font4">e </span><span class="font5">n </span><span class="font6">d </span><span class="font7">s </span>
+            </h1>
+          </a>
+
+
+
+        <div class="col-xs-10 col-xs-offset-1">
+          <!-- <input type="email" class="form-control" id="exampleInputEmail1"> -->
+          <input type="text" class="form-control" id="exampleInputEmail1" placeholder="请搜索姓名">
+
+        </div>
+
+        <div class="col-xs-1"></div>
+
+        </header>
+        </div>
+
+
+
+      </div>
+
+      <footer>
+        <div class="go">
+          <button type="button" class="btn btn-warning" id="fond">F o n d</button>
+        </div>
+      </footer>
+
+    <div class="end">
+      <p>Copyright © 2017 王安 And 孙琼瑶 Inc.</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./jquery/dist/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    </body>
+</html>
