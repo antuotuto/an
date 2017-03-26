@@ -1,0 +1,8 @@
+.DS_Store
+.idea
+.git
+node_modules
+npm-debug.log*
+conf/*
+!conf/default.js
+dist
